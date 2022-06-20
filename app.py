@@ -1,15 +1,11 @@
 
 from flask import Flask,request,make_response
 from flask_cors import CORS,cross_origin
-
 import re
 import os
 import json
 import random
-
 import time
-
-
 import spacy
 from spacy import displacy
 from itertools import chain
